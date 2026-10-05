@@ -86,7 +86,7 @@ def analyser_reseau(appareils):
 
     print("\n===== PORTS SENSIBLES =====")
     for ip, port in sensibles.items():
-        print(f"{ip} → Port {port}")
+        print(f"{ip} : Port {port}")
     print("===========================")
 
 
